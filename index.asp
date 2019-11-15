@@ -13,6 +13,8 @@ Response.Charset="UTF-8"
   		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   		<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   		<link rel="stylesheet" type="text/css" href="/css/stilo.css">
         <script>
 	        <%
@@ -30,33 +32,18 @@ Response.Charset="UTF-8"
 
     </head>
 
-    <body>
-    	<div class="container">
+
+ 
     		<nav class="navbar navbar-expand-lg navbar-light " style="background-color: rgba(0,1,0,0.2);margin-top: 20px;">
-			  <a class="navbar-brand" href="#"><img src="/images/logo.png" style="width: 50px;"></a>
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-			    <span class="navbar-toggler-icon"></span>
-			  </button>
-
 			  <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-			    <ul class="navbar-nav mr-auto">
-			      <li class="nav-item active">
-			        <a class="nav-link" href="#">Home</a>
-			      </li>
-			    </ul>
-
-
-			    <form class="form-inline my-2 my-lg-0" method="POST" action="categoria.asp">
-			      <input class="form-control mr-sm-2" type="search" id="searchline" placeholder="Pesquisar" aria-label="Pesquisar">
-			      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+			    <form class="p1 form-inline my-2 my-lg-0" method="POST" action="categoria.asp">
+			      <input class="p2 form-control mr-sm-2" type="search" id="searchline" placeholder="O que você produra :)" aria-label="Pesquisar">
+			      <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="material-icons">
+search
+</i></button>
 			    </form>
 			  </div>
 			</nav>
-		</div>
-
-		<section>
-			
-		</section>
 
 
         <script type="text/javascript">
@@ -66,7 +53,7 @@ Response.Charset="UTF-8"
                 });
             });
         </script>
-    </body>
+
 
 </html>
 <%
